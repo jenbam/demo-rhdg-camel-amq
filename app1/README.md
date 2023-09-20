@@ -69,4 +69,5 @@ mvn clean quarkus:dev -Ddebug=false
 ## Deploy to Openshift
 ```shell
 ./mvnw clean package -DskipTests -Dquarkus.kubernetes.deploy=true -Dquarkus.openshift.route.expose=true
+mvn clean package -DskipTests -Dquarkus.kubernetes.deploy=true -Dquarkus.openshift.route.expose=true
 ```

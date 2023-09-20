@@ -2,11 +2,9 @@ package com.redhat.route;
 
 import java.util.concurrent.TimeUnit;
 
-import com.fasterxml.jackson.databind.node.IntNode;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.infinispan.InfinispanConstants;
 import org.apache.camel.component.infinispan.InfinispanOperation;
-import org.apache.camel.model.dataformat.JsonLibrary;
 
 public class MessageProducerRoute extends RouteBuilder {
     @Override

@@ -1,6 +1,5 @@
 package com.redhat.route;
 
-import org.apache.camel.ExchangePattern;
 import org.apache.camel.builder.RouteBuilder;
 
 public class MessageUpdateRequestRoute extends RouteBuilder {

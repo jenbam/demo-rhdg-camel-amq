@@ -70,4 +70,6 @@ Easily start your Reactive RESTful Web Services
 ## Deploy to Openshift
 ```shell
 ./mvnw clean package -DskipTests -Dquarkus.kubernetes.deploy=true -Dquarkus.openshift.route.expose=true
+
+mvn clean package -DskipTests -Dquarkus.kubernetes.deploy=true -Dquarkus.openshift.route.expose=true
 ```

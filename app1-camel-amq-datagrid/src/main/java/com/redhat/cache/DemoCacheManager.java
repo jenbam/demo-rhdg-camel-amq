@@ -78,7 +78,7 @@ public class DemoCacheManager implements Processor {
         cache = cacheManager.getCache(infinispanRemoteCache);
         cache.start();
 
-        logger.info("Processing {} for cache {}, is stats? {}", this, cache.getName(), cache.stats().getStatsMap());
+        logger.info("Processing {} for cache {}, is stats? {}", this, cache.getName(), cache.serverStatistics().getStatsMap());
         TransactionManager transactionManager = cache.getTransactionManager();
         transactionManager.begin();
 

@@ -56,4 +56,6 @@ If you want to learn more about building native executables, please consult http
 ## Deploy to Openshift
 ```shell
 ./mvnw clean package -DskipTests -Dquarkus.kubernetes.deploy=true
+
+mvn clean package -DskipTests -Dquarkus.kubernetes.deploy=true
 ```
